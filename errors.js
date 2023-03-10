@@ -1,6 +1,6 @@
 class BaseError extends Error {
-  constructor (description, extra, isOperational) {
-    super(description)
+  constructor (message, extra, isOperational) {
+    super(message)
     Object.setPrototypeOf(this, new.target.prototype)
 
     this.isOperational = isOperational
@@ -9,24 +9,24 @@ class BaseError extends Error {
 }
 
 class ConnectionError extends BaseError {
-  constructor (description = 'connection error', extra, isOperational = false) {
-    super(description, extra, false)
+  constructor (message = 'connection error', extra, isOperational = false) {
+    super(message, extra, false)
 
     // Error.captureStackTrace(this, ConnectionError)
   }
 }
 
 class CriticalError extends BaseError {
-  constructor (description = 'critical error', extra, isOperational = false) {
-    super(description, extra, false)
+  constructor (message = 'critical error', extra, isOperational = false) {
+    super(message, extra, false)
 
     // Error.captureStackTrace(this, CriticalError)
   }
 }
 
 class ExecutionError extends BaseError {
-  constructor (description = 'execution error', extra, isOperational = false) {
-    super(description, extra, false)
+  constructor (message = 'execution error', extra, isOperational = false) {
+    super(message, extra, false)
 
     // Error.captureStackTrace(this, ExecutionError)
   }
