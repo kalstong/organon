@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/kalstong/organon#readme",
   "devDependencies": {
-    "jest": "^29.5.0"
+    "jest": "^29.5.0",
+    "jsdoc": "^4.0.2"
   }
 }

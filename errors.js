@@ -1,3 +1,11 @@
+/**
+ * Creating a new Error called BaseError that inherits from Error.
+ * 
+ * @class
+ * @name BaseError
+ * @kind class
+ * @extends Error
+ */
 class BaseError extends Error {
   constructor (message, extra, isOperational) {
     super(message)
@@ -8,6 +16,14 @@ class BaseError extends Error {
   }
 }
 
+/**
+ * Creating a new Error called ConnectionError that inherits from BaseError.
+ * 
+ * @class
+ * @name ConnectionError
+ * @kind class
+ * @extends BaseError
+ */
 class ConnectionError extends BaseError {
   constructor (message = 'connection error', extra, isOperational = false) {
     super(message, extra, false)
@@ -16,6 +32,14 @@ class ConnectionError extends BaseError {
   }
 }
 
+/**
+ * Creating a new Error called CriticalError that inherits from BaseError.
+ * 
+ * @class
+ * @name CriticalError
+ * @kind class
+ * @extends BaseError
+ */
 class CriticalError extends BaseError {
   constructor (message = 'critical error', extra, isOperational = false) {
     super(message, extra, false)
@@ -24,6 +48,14 @@ class CriticalError extends BaseError {
   }
 }
 
+/**
+ * Creating a new Error called ExecutionError that inherits from BaseError.
+ * 
+ * @class
+ * @name ExecutionError
+ * @kind class
+ * @extends BaseError
+ */
 class ExecutionError extends BaseError {
   constructor (message = 'execution error', extra, isOperational = false) {
     super(message, extra, false)
