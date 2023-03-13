@@ -1,6 +1,8 @@
 # organon
 Just a tool, a lib, a bunch of code I use!
 
+[![Node.js Package - NPM](https://github.com/kalstong/organon/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/kalstong/organon/actions/workflows/npm-publish.yml)
+
 ## Errors Module
 
 ### Types:
