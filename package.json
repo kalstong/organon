@@ -4,7 +4,7 @@
   "description": "Just a tool, a lib, a bunch of code I use!",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "npx jest",
     "upgrade-dependencies": "npx npm-check --update"
   },
   "repository": {
