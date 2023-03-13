@@ -3,6 +3,7 @@ Just a tool, a lib, a bunch of code I use!
 
 [![Node.js Package - NPM](https://github.com/kalstong/organon/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/kalstong/organon/actions/workflows/npm-publish.yml)
 [![Node.js Package - Github](https://github.com/kalstong/organon/actions/workflows/npm-publish-github-packages.yml/badge.svg?branch=main)](https://github.com/kalstong/organon/actions/workflows/npm-publish-github-packages.yml)
+[![Node.js CI](https://github.com/kalstong/organon/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/kalstong/organon/actions/workflows/node.js.yml)
 
 ## Errors Module
 
